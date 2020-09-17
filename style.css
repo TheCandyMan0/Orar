@@ -1,0 +1,21 @@
+table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 15px;
+  
+}
+table {
+  margin-left: auto;
+ margin-right: auto;
+ margin-top: 200px;
+
+}
+body{
+  background-image: url('background.jpg');
+  background-size:1920px 1080px;
+}
+.ore {
+  padding: 2px 2px 5px 5px;
+}
