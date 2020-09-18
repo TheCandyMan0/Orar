@@ -14,8 +14,8 @@ table {
 }
 body{
   background-image: url('background.jpg');
-  background-size:1920px 1080px;
-  background-repeat:cover;
+  background-size:cover;
+  background-repeat:no-repeat;
 }
 .ore {
   padding: 2px 2px 5px 5px;
