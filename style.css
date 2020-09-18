@@ -29,8 +29,4 @@ tbody tr:nth-child(even) {
 }
 html {
 min-height:100%;}
-@meta screen and (min-height:1920px){
-  table{
-    margin-top: 50%;
-  }
-}
+
