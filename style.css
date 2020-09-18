@@ -15,15 +15,16 @@ table {
 body{
   background-image: url('background.jpg');
   background-size:1920px 1080px;
-  background-repeat: no-repeat;
+  background-repeat:cover;
 }
 .ore {
   padding: 2px 2px 5px 5px;
 }
 tbody tr:nth-child(odd) {
-  background-color: #ff33cc;
+  background-color: #ff0000;
 }
 
 tbody tr:nth-child(even) {
-  background-color: #e495e4;
+  background-color: #ccccb3;
 }
+
