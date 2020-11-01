@@ -4,29 +4,37 @@ table, th, td {
 }
 th, td {
   padding: 15px;
-  
+
 }
 table {
-  margin-left: auto;
- margin-right: auto;
- margin-top: 200px;
+  margin:0 auto;
+
 
 }
 body{
-  background-image: url('background.jpg');
-  background-size:cover;
-  background-repeat:no-repeat;
+  background-color:red;
+  background-size:auto;
+  background-repeat: no-repeat;
 }
 .ore {
   padding: 2px 2px 5px 5px;
 }
-tbody tr:nth-child(odd) {
-  background-color: #ff0000;
+
+tr{
+  background-color:lime;
+  color:black;
 }
 
-tbody tr:nth-child(even) {
-  background-color: #eaeae1;
-}
-html {
-min-height:100%;}
-
+html, body {
+    height: 100%;
+  }
+  #tableContainer-1 {
+    height: 100%;
+    width: 100%;
+    display: table;
+  }
+  #tableContainer-2 {
+    vertical-align: middle;
+    display: table-cell;
+    height: 100%;
+  }
