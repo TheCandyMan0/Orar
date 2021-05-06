@@ -1,80 +1,136 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<link rel="stylesheet" href="style.css">
-
+	<title>Table V03</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/perfect-scrollbar/perfect-scrollbar.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--===============================================================================================-->
 </head>
 <body>
-  <div id="tableContainer-1">
-  <div id="tableContainer-2">
-<table>
-   <tr>
-     <th colspan="9">Orar</th>
-   </tr>
-   <tr >
-     <th class="ore"></th>
-     <th class="ore">Ora 0(13:40)</th>
-     <th class="ore">Ora 1(14:30)</th>
-     <th class="ore">Ora 2(15:20)</th>
-     <th class="ore">Ora 3(16:10)</th>
-     <th class="ore">Ora 4(17:00)</th>
-     <th class="ore">Ora 5(17:50)</th>
-     <th class="ore">Ora 6(18:40)</th>
-   </tr>
-   <tr>
-    <th>Luni</th>
-    <td></td>
-    <td>Chimie</td>
-    <td>Chimie</td>
-    <td>Geografie</td>
-    <td>Sport</td>
-    <td>Engleza</td>
-    <td>Muzica/Desen</td>
-   </tr>
-   <tr>
-     <th>Marti</th>
-     <td></td>
-     <td></td>
-     <td>Franceza</td>
-     <td>Franceza</td>
-     <td>Informatica</td>
-     <td>Informatica</td>
-     <td>Religie</td>
-   </tr>
-   <tr>
-     <th color=black >Miercuri</th>
-     <td>Fizica</td>
-     <td>Fizica</td>
-     <td>Fizica</td>
-     <td>Psihologie</td>
-     <td>Romana</td>
-     <td>Romana</td>
-     <td></td>
-   </tr>
-   <tr>
-     <th>Joi</th>
-     <td>Romana</td>
-     <td>Matematica</td>
-     <td>Matematica</td>
-     <td>Matematica</td>
-     <td>Engleza</td>
-     <td>Antreprenoriala</td>
-     <td></td>
-   </tr>
-   <tr>
-     <th>Vineri</th>
-     <td>Sport</td>
-     <td>Istorie</td>
-     <td>Matematica</td>
-     <td>Biologie</td>
-     <td>Biologie</td>
-     <td>Matematica</td>
-     <td></td>
-   </tr>
 
-</table>
-</div>
-</div>
+	<div class="limiter">
+		<div class="container-table100">
+			<div class="wrap-table100">
+
+				<div class="table100 ver6 m-b-110">
+					<table data-vertable="ver6">
+						<thead>
+							<tr class="row100 head">
+								<th class="column100 column1" data-column="column1"></th>
+								<th class="column100 column2" data-column="column2">Luni</th>
+								<th class="column100 column3" data-column="column3">Marti</th>
+								<th class="column100 column4" data-column="column4">Miercuri</th>
+								<th class="column100 column5" data-column="column5">Joi</th>
+								<th class="column100 column6" data-column="column6">Vineri</th>
+
+							</tr>
+						</thead>
+						<tbody>
+							<tr class="row100">
+								<td class="column100 column1" data-column="column1">Ora 0(13:40)</td>
+								<td class="column100 column2" data-column="column2"></td>
+								<td class="column100 column3" data-column="column3"></td>
+								<td class="column100 column4" data-column="column4">Fizica</td>
+								<td class="column100 column5" data-column="column5">Romana</td>
+								<td class="column100 column6" data-column="column6">Sport</td>
+
+							</tr>
+
+							<tr class="row100">
+								<td class="column100 column1" data-column="column1">Ora 1(14:30)</td>
+								<td class="column100 column2" data-column="column2">Chimie</td>
+								<td class="column100 column3" data-column="column3"></td>
+								<td class="column100 column4" data-column="column4">Fizica</td>
+								<td class="column100 column5" data-column="column5">Matematica</td>
+								<td class="column100 column6" data-column="column6">Istorie</td>
+
+							</tr>
+
+							<tr class="row100">
+								<td class="column100 column1" data-column="column1">Ora 2(15:20)</td>
+								<td class="column100 column2" data-column="column2">Chimie</td>
+								<td class="column100 column3" data-column="column3">Franceza</td>
+								<td class="column100 column4" data-column="column4">Fizica</td>
+								<td class="column100 column5" data-column="column5">Matematica</td>
+								<td class="column100 column6" data-column="column6">Matematica</td>
+
+							</tr>
+
+							<tr class="row100">
+								<td class="column100 column1" data-column="column1">Ora 3(16:10)</td>
+								<td class="column100 column2" data-column="column2">Geografie</td>
+								<td class="column100 column3" data-column="column3">Franceza</td>
+								<td class="column100 column4" data-column="column4">Psihologie</td>
+								<td class="column100 column5" data-column="column5">Matematica</td>
+								<td class="column100 column6" data-column="column6">Biologie</td>
+
+							</tr>
+
+							<tr class="row100">
+								<td class="column100 column1" data-column="column1">Ora 4(17:00)</td>
+								<td class="column100 column2" data-column="column2">Sport</td>
+								<td class="column100 column3" data-column="column3">Informatica</td>
+								<td class="column100 column4" data-column="column4">Romana</td>
+								<td class="column100 column5" data-column="column5">Engleza</td>
+								<td class="column100 column6" data-column="column6">Biologie</td>
+
+							</tr>
+
+							<tr class="row100">
+								<td class="column100 column1" data-column="column1">Ora 5(17:50)</td>
+								<td class="column100 column2" data-column="column2">Engleza</td>
+								<td class="column100 column3" data-column="column3">Informatica</td>
+								<td class="column100 column4" data-column="column4">Romana</td>
+								<td class="column100 column5" data-column="column5">Antreprenoriala</td>
+								<td class="column100 column6" data-column="column6">Matematica</td>
+
+							</tr>
+
+							<tr class="row100">
+								<td class="column100 column1" data-column="column1">Ora 6(18:40)</td>
+								<td class="column100 column2" data-column="column2">Muzica/Desen</td>
+								<td class="column100 column3" data-column="column3">Religie</td>
+								<td class="column100 column4" data-column="column4"></td>
+								<td class="column100 column5" data-column="column5"></td>
+								<td class="column100 column6" data-column="column6"></td>
+
+							</tr>
+
+
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+<!--===============================================================================================-->
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
 
 </body>
 </html>
