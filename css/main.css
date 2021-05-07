@@ -113,7 +113,7 @@ iframe {
 }
 
 .wrap-table100 {
-  width: 1000px;
+  width: 70%;
 }
 
 /*//////////////////////////////////////////////////////////////////
@@ -125,27 +125,27 @@ table {
 
 th, td {
   font-weight: unset;
-  padding-right: 10px;
+  padding-right: 0.5%;
 }
 
 .column100 {
-  width: 130px;
-  padding-left: 25px;
+  width: 10%;
+  padding-left: 2%;
 }
 
 .column100.column1 {
-  width: 130px;
-  padding-left: 42px;
+  width: 10%;
+  padding-left: 4%;
 }
 
 .row100.head th {
-  padding-top: 24px;
-  padding-bottom: 20px;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 
 .row100 td {
-  padding-top: 18px;
-  padding-bottom: 14px;
+  padding-top: 2%;
+  padding-bottom: 1.5%;
 }
 
 
@@ -424,14 +424,14 @@ th, td {
 
 .table100.ver6 td {
   font-family: Montserrat-Regular;
-  font-size: 14px;
+  font-size: 1vmax;
   color: #fff;
   line-height: 1.4;
 }
 
 .table100.ver6 th {
   font-family: Montserrat-Medium;
-  font-size: 12px;
+  font-size: 1vmax;
   color: #fff;
   line-height: 1.4;
   text-transform: uppercase;
